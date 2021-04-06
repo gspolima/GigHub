@@ -181,6 +181,10 @@
     <Compile Include="Migrations\202104060400365_CreateGigsAndGenresTables.Designer.cs">
       <DependentUpon>202104060400365_CreateGigsAndGenresTables.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202104062111476_DataAnnotationsToEnforceRulesOnGigsAndGenres.cs" />
+    <Compile Include="Migrations\202104062111476_DataAnnotationsToEnforceRulesOnGigsAndGenres.Designer.cs">
+      <DependentUpon>202104062111476_DataAnnotationsToEnforceRulesOnGigsAndGenres.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
@@ -270,6 +274,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202104060400365_CreateGigsAndGenresTables.resx">
       <DependentUpon>202104060400365_CreateGigsAndGenresTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104062111476_DataAnnotationsToEnforceRulesOnGigsAndGenres.resx">
+      <DependentUpon>202104062111476_DataAnnotationsToEnforceRulesOnGigsAndGenres.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
