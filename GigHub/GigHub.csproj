@@ -177,9 +177,16 @@
     <Compile Include="Migrations\202104060321437_add-migration InitialModel.Designer.cs">
       <DependentUpon>202104060321437_add-migration InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202104060400365_CreateGigsAndGenresTables.cs" />
+    <Compile Include="Migrations\202104060400365_CreateGigsAndGenresTables.Designer.cs">
+      <DependentUpon>202104060400365_CreateGigsAndGenresTables.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ApplicationUser.cs" />
+    <Compile Include="Models\Genre.cs" />
+    <Compile Include="Models\Gig.cs" />
+    <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -260,6 +267,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202104060321437_add-migration InitialModel.resx">
       <DependentUpon>202104060321437_add-migration InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202104060400365_CreateGigsAndGenresTables.resx">
+      <DependentUpon>202104060400365_CreateGigsAndGenresTables.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
