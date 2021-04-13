@@ -110,14 +110,20 @@ button[type=submit] {
     border-color: #ff562c;
 }
 
+
+.btn {
+    padding: 7px 20px;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
 .btn-primary:hover {
     color: #fff;
     background-color: #ba3e1f;
     border-color: #b33718;
 }
 
-.btn {
-    padding: 7px 20px;
-    font-size: 17px;
-    border-radius: 10px;
+.btn-primary:focus, .btn-primary.focus {
+    background-color: #cf4725;
+    border-color: #b33718;
 }
