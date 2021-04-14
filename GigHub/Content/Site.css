@@ -112,6 +112,7 @@ button[type=submit] {
 
 
 .btn {
+    margin: 5px 12px 0px 0px;
     padding: 7px 20px;
     font-size: 17px;
     border-radius: 10px;
